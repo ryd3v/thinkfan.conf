@@ -1,11 +1,12 @@
+r@debian:~$ cat  /etc/thinkfan.conf
 tp_fan /proc/acpi/ibm/fan
 
-hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon6/temp6_input
-hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon6/temp3_input
-hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon6/temp7_input
-hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon6/temp4_input
-hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon6/temp1_input
-hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon6/temp5_input
+hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon8/temp6_input
+hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon8/temp3_input
+hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon8/temp7_input
+hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon8/temp4_input
+hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon8/temp1_input
+hwmon /sys/devices/platform/thinkpad_hwmon/hwmon/hwmon8/temp5_input
 
 (0,     0,      49)
 (1,     42,     65)
